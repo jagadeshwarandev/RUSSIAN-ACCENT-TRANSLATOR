@@ -22,7 +22,8 @@ nav {
     background-color: var(--white);
     text-align: center;
     color:black;
-    padding: 3rem 0rem;
+    padding: 4rem 1rem;
+    font-size:2rem;
 }
 
 main {
@@ -44,14 +45,17 @@ textarea {
 button {
     background-color: var(--white);
     border: none;
-    margin: 1.5rem 8rem;
+    margin: 1rem 2rem;
     padding: 1rem 2rem;
     font-family: 'Montserrat', sans-serif;
     font-size: large;
     align-items: center;
 }
 
-
+#translate-button{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
 #translate-output {
     box-sizing: border-box;
     width: 100%;
@@ -61,11 +65,11 @@ button {
     border: 1px solid var(--white);
     color:var(--black);
     background-color: white;
+    margin-top: 2rem;
     
 }
 
 footer {
-    position: fixed;
     bottom: 0;
     width: 100%;
     padding: 1rem;
